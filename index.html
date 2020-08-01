@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carousel in JavaScript</title>
+    <link rel="stylesheet" href="carousel-style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="btn left-btn hide">
+            <img src="img/left-arrow.svg" alt="">
+        </button>
+
+        <div class="carousel-container">
+            <ul class="carousel">
+                <li class="slide active">
+                    <img src="img/image1.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img src="img/image2.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img src="img/image3.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img src="img/image4.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img src="img/image5.jpg" alt="">
+                </li>
+                <li class="slide">
+                    <img src="img/image6.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <button class="btn right-btn">
+            <img src="img/right-arrow.svg" alt="">
+        </button>
+
+        <div class="nav">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            
+        </div>
+    </div>
+
+    <script src="ride-succession.js"></script>
+</body>
+</html>
